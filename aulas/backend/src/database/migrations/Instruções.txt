@@ -1,0 +1,15 @@
+Para criar a migrations
+npx knex migrate:make "nome da Migration"
+
+Depois que a migrations estiver preenchida (Up e Down Métodos) rodar o comando
+npx knex migrate:latest
+
+Para desfazer a ultima migrations
+npx knex migrate:rollback  
+
+Para ver todas as opções
+npx knex
+
+Para ver todas as migrations que já foram executadas
+npx knex migrate:status
+
